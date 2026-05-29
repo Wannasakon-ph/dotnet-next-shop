@@ -1,0 +1,64 @@
+# Build output
+bin/
+obj/
+out/
+publish/
+artifacts/
+
+# IDE - Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.userprefs
+*.suo
+*.sln.docstates
+*.userosscache
+
+# .NET binaries / artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp_proj
+*.svclog
+*.scc
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+*.snupkg
+.nuget/
+
+# Coverage / test results
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.lcov
+*.trx
+
+# EF / migrations temp
+*.mdf
+*.ldf
+*.sqlite
+*.sqlite-journal
+
+# Logs
+*.log
+logs/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+secrets.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rider
+_ReSharper.Caches/
+*.DotSettings.user
