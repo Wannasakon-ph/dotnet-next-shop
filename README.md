@@ -60,6 +60,20 @@ The frontend calls the backend via `NEXT_PUBLIC_API_URL`
 3. Open the cart to update quantities, remove items, or clear it.
 4. Checkout decrements stock in a transaction and empties the cart.
 
+### Screenshots
+
+**Product list** — stock badges and per-item quantity selector:
+
+![Product list](Docs/frontend1.png)
+
+**Add to cart** — toast confirmation and live cart badge:
+
+![Add to cart](Docs/frontend3.png)
+
+**Cart** — update quantity, remove items, and order summary:
+
+![Cart](Docs/frontend2.png)
+
 ### API endpoints (backend)
 
 | Method | Route | Purpose |
@@ -76,9 +90,15 @@ The frontend calls the backend via `NEXT_PUBLIC_API_URL`
 | DELETE | `/api/cart/clear` | Clear cart |
 | POST | `/api/cart/checkout` | Checkout (decrement stock) |
 
-In Development, OpenAPI/Scalar docs are served by the backend.
+In Development, OpenAPI/Scalar docs are served by the backend:
+
+![API docs](Docs/api.png)
 
 ## Database
+
+### Schema
+
+![Database schema](Docs/database.png)
 
 ### Credentials
 
